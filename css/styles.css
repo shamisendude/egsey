@@ -52,6 +52,7 @@ h1 {
 	letter-spacing: -0.5px;
 }
 
+
 h2 {
 	color: #1e266d;
 	font-weight: 700;
@@ -59,6 +60,8 @@ h2 {
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
 }
+
+
 
 h3 {
 	color: #1e266d;
@@ -95,7 +98,6 @@ h6 {
 	line-height: 3.5rem;
 	letter-spacing: -0.7px;
 }
-
 
 @media (max-width: 767px) {
 	.h1-large {
@@ -616,14 +618,22 @@ input[type='checkbox'] {
 /*****************/
 .header {
 	padding-top: 7rem;
-	padding-bottom: 2.5rem;
+	padding-bottom: 15rem;
 	background: url('../images/header-background.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
-
+@media (max-width: 768px)  {
+	.header {
+		padding-top: 7rem;
+		padding-bottom: 2.5rem;
+		background: url('../images/ehh.png') center center no-repeat;
+		background-size: auto;
+		text-align: center;
+	}
+}
 .header .text-container {
-	margin-bottom: 4rem;
+	margin-bottom: 1.5rem;
 }
 
 .header .h1-large {
@@ -689,8 +699,8 @@ input[type='checkbox'] {
 /*     Features     */
 /********************/
 .cards-1 {
-	padding-top: 9.5rem;
-	padding-bottom: 6.625rem;
+	padding-top: 5rem;
+	padding-bottom: 3.625rem;
 	background-color: #040470;
 }
 
@@ -761,8 +771,8 @@ input[type='checkbox'] {
 /*     Details 1     */
 /*********************/
 .basic-2 {
-	padding-top: 9.25rem;
-	padding-bottom: 5rem;
+	padding-top: 4.75rem;
+	padding-bottom: 0rem;
 	background: url('../images/details-1-background.png') center center no-repeat;
 	background-size: cover;
 }
@@ -772,7 +782,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .intro {
-	margin-bottom: 9.5rem;
+	margin-bottom: 2.5rem;
 }
 
 .basic-2 .image-container {
@@ -898,7 +908,7 @@ input[type='checkbox'] {
 /*********************/
 .basic-3 {
 	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-bottom: 0rem;
 }
 
 .basic-3 .text-container {
@@ -923,8 +933,8 @@ input[type='checkbox'] {
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 5rem;
-	padding-bottom: 9.5rem;
+	padding-top: 0rem;
+	padding-bottom: 5rem;
 	background: url('../images/details-3-background.png') center center no-repeat;
 	background-size: cover;
 }
@@ -946,8 +956,8 @@ input[type='checkbox'] {
 /*     Testimonials     */
 /************************/
 .slider-2 {
-	padding-top: 9.25rem;
-	padding-bottom: 10rem;
+	padding-top: 4.75rem;
+	padding-bottom: 5rem;
 	background-color: #040470;
 }
 
@@ -1026,8 +1036,8 @@ input[type='checkbox'] {
 /*     Newsletter     */
 /**********************/
 .form-1 {
-	padding-top: 9.5rem;
-	padding-bottom: 8.5rem;
+	padding-top: 7.5rem;
+	padding-bottom: 6.5rem;
 	text-align: center;
 }
 
