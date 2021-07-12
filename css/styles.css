@@ -934,8 +934,8 @@ input[type='checkbox'] {
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 4rem;
-	padding-bottom: 0rem;
+	padding-top: 2.75rem;
+	padding-bottom: 4rem;
 	background: url('../images/details-3-background.png') center center no-repeat;
 	background-size: cover;
 }
@@ -945,7 +945,7 @@ input[type='checkbox'] {
 }
 
 .basic-4 .image-container {
-	margin-bottom: 3.5rem;
+	margin-bottom: 0rem;
 	margin-top: 2rem;
 }
 
