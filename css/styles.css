@@ -908,7 +908,7 @@ input[type='checkbox'] {
 /*     Details 2     */
 /*********************/
 .basic-3 {
-	padding-top: 4rem;
+	padding-top: 3.5rem;
 	padding-bottom: 0rem;
 }
 
@@ -934,7 +934,7 @@ input[type='checkbox'] {
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 2.75rem;
+	padding-top: 3.5rem;
 	padding-bottom: 4rem;
 	background: url('../images/details-3-background.png') center center no-repeat;
 	background-size: cover;
