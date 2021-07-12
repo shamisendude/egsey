@@ -935,10 +935,10 @@ input[type='checkbox'] {
 .basic-4 {
 	padding-top: 0rem;
 	padding-bottom: 5rem;
-	background: url('../images/details-3-background.png') center center no-repeat;
-	background-size: cover;
+	/*background: url('../images/details-3-background.png') center center no-repeat;
+	background-size: cover;*/
 }
-
+/*
 .basic-4 h2 {
 	margin-bottom: 1.5rem;
 }
@@ -949,8 +949,24 @@ input[type='checkbox'] {
 
 .basic-4 p {
 	margin-bottom: 1.75rem;
+}*/
+
+.basic-4 .text-container {
+	margin-bottom: 3.75rem;
 }
 
+.basic-4 h2 {
+	margin-bottom: 1.5rem;
+}
+
+.basic-4 .list-unstyled .fas {
+	font-size: 0.375rem;
+	line-height: 1.625rem;
+}
+
+.basic-4 .list-unstyled .media-body {
+	margin-left: 0.5rem;
+}
 
 /************************/
 /*     Testimonials     */
