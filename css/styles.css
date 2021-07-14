@@ -907,7 +907,7 @@ input[type='checkbox'] {
 /*********************/
 /*     Details 2     */
 /*********************/
-.basic-3 {
+/* .basic-3 {
 	padding-top: 3.5rem;
 	padding-bottom: 0rem;
 }
@@ -927,14 +927,31 @@ input[type='checkbox'] {
 
 .basic-3 .list-unstyled .media-body {
 	margin-left: 0.5rem;
+} */
+
+.basic-3 {
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
 }
 
+.basic-3 h2 {
+	margin-bottom: 1.5rem;
+}
+
+.basic-3 .image-container {
+	margin-bottom: 0rem;
+	margin-top: 2rem;
+}
+
+.basic-3 p {
+	margin-bottom: 1.75rem;
+}
 
 /*********************/
 /*     Details 3     */
 /*********************/
 .basic-4 {
-	padding-top: 3.5rem;
+	padding-top: 0rem;
 	padding-bottom: 4rem;
 	background: url('../images/details-3-background.png') center center no-repeat;
 	background-size: cover;
