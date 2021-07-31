@@ -50,7 +50,7 @@ body, pw {
 }
 
 h1 {
-	color: #1e266d;
+	color: #f8476a;
 	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.125rem;
@@ -150,6 +150,7 @@ h6 {
 
 .li-space-lg li {
 	margin-bottom: 0.5rem;
+	color: #515867;
 }
 
 a {
@@ -234,9 +235,9 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #ed7966;
+	border: 1px solid #00c1ff;
 	border-radius: 32px;
-	background-color: #ed7966;
+	background-color: #00c1ff;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -559,7 +560,7 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #1e266d;
+	color: #3a3a3a;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -567,7 +568,7 @@ input[type='checkbox'] {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #ed7966;
+	color: #f8476a;
 }
 
 /* Dropdown Menu */
@@ -618,8 +619,8 @@ input[type='checkbox'] {
 
 .navbar .nav-item .btn-solid-sm {
 	margin-top: 0.125rem;
-	border: 1px solid #1e266d;
-	background-color: #1e266d;
+	border: 1px solid #f8476a;
+	background-color: #f8476a;
 }
 
 .navbar .nav-item .btn-solid-sm:hover {
@@ -640,7 +641,8 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 15rem;
-	background: url('../images/header-background.png') center center no-repeat;
+	/* background: url('../images/header-background.png') center center no-repeat; */
+	background-color: #ffffff;
 	background-size: cover;
 	text-align: center;
 }
@@ -725,7 +727,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 5rem;
 	padding-bottom: 3.625rem;
-	background-color: #040470;
+	background-color: #f3f3f3;
 }
 
 .compare {
@@ -736,7 +738,7 @@ input[type='checkbox'] {
 
 .cards-1 .h2-heading {
 	margin-bottom: 1rem;
-	color: #ffffff;
+	color: #3a3a3a;
 	text-align: center;
 }
 
@@ -1144,6 +1146,7 @@ input[type='checkbox'] {
 
 .footer .li-space-lg li {
 	margin-bottom: 0.375rem;
+	color: #515867;
 }
 
 .footer .footer-col.third .fa-stack {
