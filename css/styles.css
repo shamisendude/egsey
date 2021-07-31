@@ -874,7 +874,7 @@ input[type='checkbox'] {
 	padding-top: 4.75rem;
 	padding-bottom: 0rem;
 	/* background: url('../images/details-1-background.png') center center no-repeat; */
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	background-size: cover;
 }
 
@@ -1163,7 +1163,15 @@ input[type='checkbox'] {
 .form-1 {
 	padding-top: 7.5rem;
 	padding-bottom: 6.5rem;
+	/* background: url('../images/red.png');
+	background-size: cover; */
 	text-align: center;
+}
+
+.form-1 img {
+    width: 130px;
+	height: 130px;
+	margin-bottom: 50px;
 }
 
 .form-1 .h2-heading {
@@ -1797,7 +1805,7 @@ a:hover.back-to-top {
 	 width: calc(100% - 100px);
 	 height: 400px;
 	 margin-bottom: 10px;
-	 margin-left: 200px;
+	 margin-left: 184px;
 
 }
  @media screen and (max-width: 718px) {
