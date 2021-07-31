@@ -641,7 +641,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 15rem;
-	/* background: url('../images/header-background.png') center center no-repeat; */
+	background: url('../images/Untitled-2.png') center center no-repeat; 
 	background-color: #ffffff;
 	background-size: cover;
 	text-align: center;
@@ -650,7 +650,7 @@ input[type='checkbox'] {
 	.header {
 		padding-top: 7rem;
 		padding-bottom: 2.5rem;
-		background: url('../images/ehh.png') center center no-repeat;
+		background: url('../images/Untitled-3.png') center center no-repeat;
 		background-size: auto;
 		text-align: center;
 	}
