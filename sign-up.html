@@ -18,7 +18,7 @@
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>お申し込みページ</title>
+    <title>登録ページ</title>
     
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,7 +30,7 @@
 	<link href="css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favi.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h1 class="h1-large">お申し込みフォーム</h1>
+                    <h2>登録フォーム</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -101,24 +101,27 @@
             <div class="row">
                 <div class="col-xl-6 offset-xl-3">
                     <div class="text-box mt-4 mb-5">
-                        <p class="mb-4">Fill out the form below to sign up for the service. Already signed up? Then just <a class="blue" href="log-in.html">Log In</a></p>
+                        <!-- <p class="mb-4">Fill out the form below to sign up for the service. Already signed up? Then just <a class="blue" href="log-in.html">Log In</a></p> -->
 
                         <!-- Sign Up Form -->
                         <form id="signUpForm">
                             <div class="form-group">
                                 <input type="email" class="form-control-input" id="email" required>
-                                <label class="label-control" for="email">Email</label>
+                                <label class="label-control" for="email">お名前（例：山田太郎）</label>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control-input" id="name" required>
-                                <label class="label-control" for="name">Name</label>
+                                <label class="label-control" for="name">InstagramのアカウントID</label>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control-input" id="password" required>
-                                <label class="label-control" for="password">Password</label>
+                                <label class="label-control" for="password">Eメール</label>
                             </div>
                             <div class="form-group checkbox">
-                                <input type="checkbox" id="terms" value="Agreed-to-Terms" required>I agree with the site's stated <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a>
+                                ※Facebook登録Eメールと同一アドレスのご登録をお願いいたします。<br>※Facebookアカウントをお持ちで無い方は事前にご登録をお願いいたします。後ほどInstagramとの連携の際に必要です。
+                            </div>
+                                <div class="form-group checkbox">
+                                <input type="checkbox" id="terms" value="Agreed-to-Terms" required><a href="privacy.html">プライバシーポリシー</a> と <a href="terms.html">利用規約</a>に同意する。
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="form-control-submit-button">登録する</button>
@@ -133,9 +136,8 @@
     </div> <!-- end of ex-basic-1 -->
     <!-- end of basic -->
 
-
-  <!-- Footer -->
-  <div class="footer">
+ <!-- Footer -->
+ <div class="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -146,9 +148,7 @@
                 <div class="footer-col second">
                     <h6>Links</h6>
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                        <!-- <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li> -->
-                        <li>Menu: <a class="page-scroll" href="#header">Home</a>, <a class="page-scroll" href="#features">Features</a>, <a class="page-scroll" href="#details">Details</a></li>
+                        <li> <a href="terms.html">利用規約</a><br><a href="privacy.html">プライバシーポリシー</a><br><a href="article.html">特定商取引法に基づく表記</a></li>
                     </ul>
                 </div> <!--end of footer-col-->
                 <div class="footer-col third">
@@ -183,19 +183,6 @@
     </div> <!-- end of container -->
 </div> <!-- end of footer -->  
 <!-- end of footer -->
-
-
-<!-- Copyright -->
-<div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="p-small">Copyright © <a href="#your-link">Egsey</a></p>
-            </div> <!-- end of col -->
-        </div> <!-- enf of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of copyright --> 
-<!-- end of copyright -->
 
     
     	
