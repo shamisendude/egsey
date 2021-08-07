@@ -18,7 +18,7 @@
 	<meta name="twitter:card" content="images/large-img.jpeg"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>ブランド登録ページ</title>
+    <title>ブランドお問い合わせページ</title>
     
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -44,9 +44,6 @@
             <!-- Image Logo -->
             <a class="navbar-brand logo-image" href="index.html"><img src="images/logo_web.png" alt="alternative"></a> 
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -58,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h2>出店ブランド登録フォーム</h2>
+                    <h2>出店ブランド向け<br>お問い合わせフォーム</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -77,25 +74,33 @@
                         <!-- Sign Up Form -->
                         <form id="signUpForm">
                             <div class="form-group">
-                                <input type="email" class="form-control-input" id="email" required>
-                                <label class="label-control" for="email">お名前（例：山田太郎）</label>
+                                <input type="text" class="form-control-input" id="company_name" required>
+                                <label class="label-control" for="company_name">会社名</label>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control-input" id="name" required>
-                                <label class="label-control" for="name">InstagramのアカウントID</label>
+                                <label class="label-control" for="name">お名前（例：山田太郎）</label>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control-input" id="password" required>
-                                <label class="label-control" for="password">Eメール</label>
+                                <input type="email" class="form-control-input" id="email" required>
+                                <label class="label-control" for="email">Eメール</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="phone" required>
+                                <label class="label-control" for="phone">担当者の電話番号</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="genre" required>
+                                <label class="label-control" for="genre">ジャンル（例：アパレル）</label>
                             </div>
                             <div class="form-group checkbox">
-                                ※Facebook登録Eメールと同一アドレスのご登録をお願いいたします。<br>※Facebookアカウントをお持ちで無い方は事前にご登録をお願いいたします。後ほどInstagramとの連携の際に必要です。
+                                弊社営業担当より2営業日以内にご連絡をさせていただきます。
                             </div>
                                 <div class="form-group checkbox">
                                 <input type="checkbox" id="terms" value="Agreed-to-Terms" required><a href="privacy.html">プライバシーポリシー</a> と <a href="terms.html">利用規約</a>に同意する。
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">登録する</button>
+                                <button type="submit" class="form-control-submit-button">お問い合わせする</button>
                             </div>
                         </form>
                         <!-- end of sign up form -->
