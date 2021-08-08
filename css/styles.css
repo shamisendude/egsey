@@ -188,6 +188,15 @@ a:hover {
 	vertical-align: -8%;
 }
 
+.alert{
+	text-align: center;
+	padding: 10px;
+	background:#79c879;
+	color: #ffffff;
+	margin-bottom:10px;
+	display: none;
+}
+
 .blue {
 	color: #1d79fb;
 }
