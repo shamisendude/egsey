@@ -773,6 +773,10 @@ input[type='checkbox'] {
 	background-color: #f9f9f9;
 }
 
+.cards-1 .text-container{
+	text-align: right;
+}
+
 .compare {
 	padding-top: 0rem;
 	padding-bottom: 0rem;
@@ -801,6 +805,14 @@ input[type='checkbox'] {
 .cards-1 .card {
 	margin-bottom: 3rem;
 	background-color: white;
+}
+
+@media only screen and (min-width: 1026px) {
+
+	.cards-1 .card {
+		margin-bottom: -3rem;
+		background-color: white;
+	}
 }
 
 .cards-1 .card-icon-wrapper {
@@ -925,7 +937,7 @@ justify-content: space-around ;
 
 .circular-chart {
 display: block;
-margin: 10px auto;
+margin: 20px auto;
 max-width: 80%;
 max-height: 250px;
 }

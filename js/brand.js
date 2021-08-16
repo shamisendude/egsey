@@ -12,7 +12,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 //reference messages collection
-var messagesRef = firebase.database().ref('influencer');
+var messagesRef = firebase.database().ref('brand');
 
 //Listen for form submit
 document.getElementById('signUpForm').addEventListener('submit', submitForm);
@@ -22,12 +22,14 @@ function submitForm(e){
     e.preventDefault();
 
 //get values
+var company_name = getInputVal('company_name');
 var name = getInputVal('name');
-var accountID = getInputVal('accountID');
 var email = getInputVal('email');
+var phone = getInputVal('phone');
+var genre = getInputVal('genre');
 
 //save message
-saveMessage(name, accountID, email);
+saveMessage(company_name, name, email, phone, genre);
 
 //show alert
 document.querySelector('.alert').style.display = 'block';
@@ -40,11 +42,13 @@ function getInputVal(id){
 }
 
 //save message to firebase
-function saveMessage(name, accountID, email){
+function saveMessage(company_name, name, email, phone, genre){
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
+        company_name: company_name,
         name: name,
-        accountID: accountID,
-        email: email
+        email: email,
+        phone: phone,
+        genre: genre
     })
 }
